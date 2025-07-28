@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ced3fdf5a217f448a440bf05e1fb1b6, type: 3}
   m_Name: BlueCat
   m_EditorClassIdentifier: 
-  cardID: 
-  frontSprite: {fileID: 0}
+  cardID: blue
+  frontSprite: {fileID: 2633221293296553779, guid: 1bf8c2c813412654c8a43854235ab517, type: 3}

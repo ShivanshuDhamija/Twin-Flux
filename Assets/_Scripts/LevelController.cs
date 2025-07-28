@@ -139,7 +139,7 @@ public class LevelController : MonoBehaviour
         MakeCardHolderEmpty();
         _matchedCards = 0;
         onLevelUpgrade?.Invoke(new NoParam());
-        int currentLevelIndex = (PlayerPrefs.GetInt(levelKey.Key) + 1)%6;
+        int currentLevelIndex = (PlayerPrefs.GetInt(levelKey.Key) + 1)%levels.Count;
         PlayerPrefs.SetInt(levelKey.Key, currentLevelIndex);
         SetupLevel(currentLevelIndex);
         confetti.Stop();
